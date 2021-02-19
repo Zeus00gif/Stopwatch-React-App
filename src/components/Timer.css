@@ -1,0 +1,105 @@
+.timerShow{
+    font-size: 45px;
+    color: #007bff;
+}
+.halfcolstyle{
+    border: 4px solid #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.colstyle{
+    border: 4px solid #fff;
+    border-radius: 10px;
+}
+.delcolstyle{
+    border: 4px solid #ffc107;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.halfstart{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin-right: 1px;
+    width: 25%;
+    transition: 0.3s ease-in-out;
+}
+.start{
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+    width: 25%;
+}
+.start:hover{
+    box-shadow: 5px 5px #000;
+}
+.halfstart:hover{
+    box-shadow: 5px 5px #000;
+}
+.stop{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin-right: 1px;
+    transition: 0.3s ease-in-out;
+    width: 25%;
+}
+.stop:hover{
+    box-shadow: 5px 5px #000;
+}
+.restart{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 25%;
+    transition: 0.3s ease-in-out;
+}
+.restart:hover{
+    box-shadow: 5px 5px #000;
+}
+.delete{
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+}
+.delete:hover{
+    box-shadow: 5px 5px #000;
+}
+.recordedValues{
+    font-size: 35px;
+    
+}
+.values{
+    background-color: #5c9ee4;
+    border: 4px solid #083566;
+    border-top-left-radius: 27px;
+    border-bottom-left-radius: 27px;
+    box-shadow: inset 3px 3px 5px #0d5097;
+    transition: 0.3s ease-in-out;
+}
+.values:hover{
+    background-color: #3a84d3;
+    color: #222;
+}
+.rembtn{
+    border-top-right-radius: 27px;
+    border-bottom-right-radius: 27px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    box-shadow:  3px 3px 5px #000;
+}
+@media(max-width: 764px){
+    .halfstart{
+        width: 35%;
+    }
+    .start{
+        width: 35%;
+    }
+    .stop{
+        width: 35%;
+    }
+    .restart{
+        width: 35%;
+    }
+}
